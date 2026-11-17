@@ -1,0 +1,36 @@
+name: paath
+description: "Path: offline Chalisa, Aarti and mantra texts with a japa (mala) counter and a daily reminder."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.2
+  theme:
+    path: ../theme
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/texts/
+  fonts:
+    - family: NotoDeva
+      fonts:
+        - asset: assets/fonts/NotoSansDevanagari.ttf
+
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/icon/logo-1024.png"
+  min_sdk_android: 26
+  adaptive_icon_background: "assets/icon/logo_background-1024.png"
+  adaptive_icon_foreground: "assets/icon/logo_foreground-1024.png"

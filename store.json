@@ -1,0 +1,11 @@
+{
+  "id": "path",
+  "name": "Path",
+  "repo": "its-ash/path",
+  "package": "com.itsash.path",
+  "tagline": "Chalisa, Aarti and mantras offline, with a japa counter and a daily reminder.",
+  "description": "Path keeps the traditional prayers on your phone, fully offline. Read the Hanuman Chalisa, Shiv Chalisa, Durga Chalisa, aartis, mantras and stutis in Devanagari, with a readable transliteration and a short meaning in English or Hindi. Adjust the font size, keep the screen on, auto-scroll at your own speed, and count how many times you have completed each text. The japa counter turns the whole screen and the volume keys into a mala: a short vibration for every bead, a long one at every mala of 27, 54, 108 or your own number, with daily goal, streak and history. Path suggests today's text by the weekday deity and can remind you every day at a time you choose. No account, no ads, no internet needed.",
+  "category": "Lifestyle",
+  "icon": "assets/icon/logo-1024.png",
+  "homepage": "https://path.itsash.in/"
+}
